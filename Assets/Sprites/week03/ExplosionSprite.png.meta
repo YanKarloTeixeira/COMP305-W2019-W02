@@ -1,21 +1,13 @@
 fileFormatVersion: 2
 guid: 02caf2529e444a14ab5eae5fafab7fd4
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5986030973748356752
-    second: Explosion_0
-  - first:
-      213: -5600206312213581617
-    second: Explosion_1
-  - first:
-      213: 3815954189206336483
-    second: Explosion_2
-  - first:
-      213: -3690502768834906923
-    second: Explosion_3
+  fileIDToRecycleName:
+    21300000: Explosion_0
+    21300002: Explosion_1
+    21300004: Explosion_2
+    21300006: Explosion_3
   externalObjects: {}
-  serializedVersion: 8
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -122,7 +114,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 89cfed0d0dd72b249ab7c7990fc22232
-      internalID: 5986030973748356752
       vertices: []
       indices: 
       edges: []
@@ -143,7 +134,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 4c6503ddc41356a4ca1110d32547ef68
-      internalID: -5600206312213581617
       vertices: []
       indices: 
       edges: []
@@ -164,7 +154,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 6d7d8f83c2d436c4ba3a990e35090fe2
-      internalID: 3815954189206336483
       vertices: []
       indices: 
       edges: []
@@ -185,7 +174,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 90b14a53595c0f9458378b5368ee285d
-      internalID: -3690502768834906923
       vertices: []
       indices: 
       edges: []
@@ -194,12 +182,10 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
-    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

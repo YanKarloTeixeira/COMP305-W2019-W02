@@ -11,11 +11,14 @@ public class PlayerController : MonoBehaviour
 
     //PRIVATE VARIABLES
     private Rigidbody2D rBody;
+    private Animator anim;
+    private bool isFacingRight=true;
 
     // Reserved function. Run only once when the object is /// <summary>
     // User for initialization.
     void Start(){
         rBody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
     }
     void Update(){
@@ -34,8 +37,23 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate(){
         float horiz = Input.GetAxis("Horizontal");
         rBody.velocity = new Vector2(horiz*speed, rBody.velocity.y);
-        // float vert = Input.GetAxis("vertical");
-
+        // check direction of the private void OnPlayerConnected(NetworkPlayer player) {
+            if(horiz<0 && isFacingRight)
+            {
+                Flip();
+            } else if (horiz > 0 && !isFacingRight){
+                Flip();
+            }
         
+        //update animator information
+        anim.SetFloat("Speed",Mathf.Abs(horiz));
+    }
+
+    public void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector2 temp = transform.localScale;
+        temp.x *= -1;
+        transform.localScale = temp;
     }
 }

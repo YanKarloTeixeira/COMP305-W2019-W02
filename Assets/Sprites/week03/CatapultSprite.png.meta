@@ -1,15 +1,11 @@
 fileFormatVersion: 2
 guid: 555975464417842748951a085f3cf3ba
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1891777058879824526
-    second: CatapultSprite_0
-  - first:
-      213: 391613382322001202
-    second: CatapultSprite_1
+  fileIDToRecycleName:
+    21300000: CatapultSprite_0
+    21300002: CatapultSprite_1
   externalObjects: {}
-  serializedVersion: 8
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,7 +112,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: c01c21115d9cc34488c2ae1ce24da782
-      internalID: 1891777058879824526
       vertices: []
       indices: 
       edges: []
@@ -137,7 +132,6 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: df9a6c6d1e484174fa71bd35b7393f37
-      internalID: 391613382322001202
       vertices: []
       indices: 
       edges: []
@@ -146,12 +140,10 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
-    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
